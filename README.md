@@ -1,7 +1,7 @@
 # techtask
 
 Technical Challenge:
-
+task1_3tier.drawio.pdf
 Task1: Design of 3 tier environment:
 - This 3 tier environment architecture is based on AWS cloud services
 - Create separate VPC (Virtual Private Cloud) to isolate all the resources belong to the application.
