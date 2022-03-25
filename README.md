@@ -1,6 +1,6 @@
 # techtask
 
-Technical Challenge:\\
+Technical Challenge:\
 Task1: Design of 3 tier environment.\
 File Name: task1_3tier.drawio.pdf
 - This 3 tier environment architecture is based on AWS cloud services
