@@ -14,11 +14,19 @@ communicate to Internet for patch upgrade etc.
 - Configure Elastic Load Balancer between Web and Application tier to support scalability of Application tier.
 
 
-Task2: write code that will query the meta data of an instance within AWS and provide a json formatted output. 
+Task2: Write code that will query the meta data of an instance within AWS and provide a json formatted output. 
 get_aws_ec2_metadata.py
 - This is a python code that will query the metadata of an AWS EC2 instance and provide a json formatted output.
 - This will give all metadata output in one short by passing "all" argument otherwise specific metadata value 
   can be retrieved by passing correct metadata key while executing this code.
 - This python program should be executed using python3 on any AWS EC2 instance
+- Execute as below by passing argument:
+  eg: $ python3 get_aws_ec2_metadata.py all
+      $ python3 get_aws_ec2_metadata.py network
 
-Task3:
+Task3: Write a function that you pass in the nested json object and a key and get back the value
+nested_object.py
+-  Function to get the value for specific key in nested json object
+-  nested object and key is hardcoded in the main method
+-  Execute as below by changing the key in the program: 
+    eg: $ python3 nested_object.py
