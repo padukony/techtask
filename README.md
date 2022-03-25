@@ -20,13 +20,13 @@ get_aws_ec2_metadata.py
 - This will give all metadata output in one short by passing "all" argument otherwise specific metadata value 
   can be retrieved by passing correct metadata key while executing this code.
 - This python program should be executed using python3 on any AWS EC2 instance
-- Execute as below by passing argument:
-  eg: $ python3 get_aws_ec2_metadata.py all
+- Execute as below by passing argument:\
+  eg: $ python3 get_aws_ec2_metadata.py all\
       $ python3 get_aws_ec2_metadata.py network
 
 Task3: Write a function that you pass in the nested json object and a key and get back the value
 nested_object.py
 -  Function to get the value for specific key in nested json object
 -  nested object and key is hardcoded in the main method
--  Execute as below by changing the key in the program: 
+-  Execute as below by changing the key in the program:\
     eg: $ python3 nested_object.py
