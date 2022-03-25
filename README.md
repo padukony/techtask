@@ -26,7 +26,7 @@ get_aws_ec2_metadata.py
 
 Task3: Write a function that you pass in the nested json object and a key and get back the value
 nested_object.py
--  Function to get the value for specific key in nested json object
--  nested object and key is hardcoded in the main method
+-  This is a python code to get the value for specific key in nested json object
+-  Nested json object and key is hardcoded in the main method
 -  Execute as below by changing the key in the program:\
     eg: $ python3 nested_object.py
