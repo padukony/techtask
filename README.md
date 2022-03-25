@@ -14,7 +14,11 @@ communicate to Internet for patch upgrade etc.
 - Configure Elastic Load Balancer between Web and Application tier to support scalability of Application tier.
 
 
-Task2:
-
+Task2: write code that will query the meta data of an instance within AWS and provide a json formatted output. 
+get_aws_ec2_metadata.py
+- This is a python code that will query the metadata of an AWS EC2 instance and provide a json formatted output.
+- This will give all metadata output in one short by passing "all" argument otherwise specific metadata value 
+  can be retrieved by passing correct metadata key while executing this code.
+- This python program should be executed using python3 on any AWS EC2 instance
 
 Task3:
