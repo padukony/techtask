@@ -1,8 +1,8 @@
 # techtask
 
-Technical Challenge:
-task1_3tier.drawio.pdf
-Task1: Design of 3 tier environment:
+Technical Challenge:\
+task1_3tier.drawio.pdf\
+Task1: Design of 3 tier environment:\
 - This 3 tier environment architecture is based on AWS cloud services
 - Create separate VPC (Virtual Private Cloud) to isolate all the resources belong to the application.
 - Create 3 private subnets to keep web,application and DB instances/VMs/services.
@@ -14,8 +14,8 @@ communicate to Internet for patch upgrade etc.
 - Configure Elastic Load Balancer between Web and Application tier to support scalability of Application tier.
 
 
-Task2: Write code that will query the meta data of an instance within AWS and provide a json formatted output. 
-get_aws_ec2_metadata.py
+Task2: Write code that will query the meta data of an instance within AWS and provide a json formatted output.\
+get_aws_ec2_metadata.py\
 - This is a python code that will query the metadata of an AWS EC2 instance and provide a json formatted output.
 - This will give all metadata output in one short by passing "all" argument otherwise specific metadata value 
   can be retrieved by passing correct metadata key while executing this code.
@@ -24,8 +24,8 @@ get_aws_ec2_metadata.py
   eg: $ python3 get_aws_ec2_metadata.py all\
       $ python3 get_aws_ec2_metadata.py network
 
-Task3: Write a function that you pass in the nested json object and a key and get back the value
-nested_object.py
+Task3: Write a function that you pass in the nested json object and a key and get back the value.\
+nested_object.py\
 -  This is a python code to get the value for specific key in nested json object
 -  Nested json object and key is hardcoded in the main method
 -  Execute as below by changing the key in the program:\
